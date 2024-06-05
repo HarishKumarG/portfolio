@@ -1,0 +1,91 @@
+.expertise {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.expertise h2{
+  margin-top: 80px;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.expertise h3{
+  margin-top: 20px;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.certifications-list, .skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certification-item {
+  border: 2px solid #6a1b9a;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #b7b0b0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cert-title {
+  font-size: 1.2em;
+  margin: 0 0 10px 0;
+  color: #6a1b9a;
+}
+
+.cert-description {
+  font-size: 0.9em;
+  margin: 10px 0;
+  color: #555;
+}
+
+.cert-link {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #6a1b9a;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cert-link:hover {
+  border: 1px solid #6a1b9a;
+  background-color: white;
+  color: #6a1b9a;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  background-color: #b7b0b0;
+  border: 2px solid #6a1b9a;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 50px;
+}
+
+.skills-list li {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+
+.expertise h2{
+  margin-top: 100px;
+}
+}

@@ -1,0 +1,38 @@
+.Footer {
+  background-color: transparent;
+    backdrop-filter: blur(10px);
+  border-top: 1px solid #ccc;
+
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.social-icons {
+  padding-right: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  
+}
+
+.social-icons a:hover {
+  color: #6a1b9a;
+}
+
+.Footer p {
+  font-size: 14px;
+  padding-left: 20px;
+
+}
