@@ -3,7 +3,6 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  background-color: black;
   color: white;
 }
 
@@ -24,4 +23,10 @@
 .highlights{
     color: #6a1b9a;
 
+}
+
+@media (max-width: 950px) {
+  .About p {
+    margin-bottom: 60px;
+  }
 }
