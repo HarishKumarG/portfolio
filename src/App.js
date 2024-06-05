@@ -10,9 +10,9 @@ import Info from "./Components/Home/Info";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
-              <Header />
+        <Header />
         <Routes>
           <Route path="/" element={<Info />} />
           <Route path="/about" element={<About />} />
